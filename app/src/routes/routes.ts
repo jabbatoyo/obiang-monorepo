@@ -2,7 +2,7 @@ import Detail from "../pages/Detail";
 import ErrorPage from "../pages/Error";
 import Home from "../pages/Home";
 
-export const BASE_URL = "/obiang-monorepo-app";
+export const BASE_URL = "/obiang-monorepo-app/";
 interface Route {
   url: string;
   component: React.FC<any>;
@@ -25,14 +25,14 @@ const routes: Routes = {
     authRequired: false,
   },
   detail: {
-    url: `${BASE_URL}/pokemon/:id`,
+    url: `${BASE_URL}pokemon/:id`,
     component: Detail,
     name: "Detail",
     exact: true,
     authRequired: false,
   },
   error: {
-    url: `${BASE_URL}/error/:type`,
+    url: `${BASE_URL}error/:type`,
     component: ErrorPage,
     authRequired: false,
   },

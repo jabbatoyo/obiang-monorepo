@@ -5,7 +5,7 @@ function useNavigation() {
   const { pathname } = useLocation();
   const goTo = (route: string) => {
     if (route === "back") navigate(-1);
-    navigate(`${route}`);
+    navigate(`/obiang-monorepo-app${route}`);
   };
 
   return {

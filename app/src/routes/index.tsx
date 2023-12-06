@@ -24,8 +24,8 @@ const Routes: React.FC = () => {
         </>
 
         {/* Redirección a Not found en última instancia */}
-        <Route path="/" element={<Navigate to="/obiang-monorepo-app" />} />
-        {/* <Route path="*" element={<Navigate to="/error/not-found" />} /> */}
+        <Route path="/" element={<Navigate to="/obiang-monorepo-app/" />} />
+        <Route path="*" element={<Navigate to="/error/not-found" />} />
       </Switch>
     </Suspense>
   );

@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <div className="container">
       {pathname !== "/error/not-found" && (
-        <Header showMore={pathname === "/"} />
+        <Header showMore={pathname === "/obiang-monorepo-app/"} />
       )}
       <div className="body-container">{children}</div>
     </div>
