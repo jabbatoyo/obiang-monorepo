@@ -24,7 +24,7 @@ export default function CardView({ pokemons, showMore }: CardViewProps) {
         {pokemons?.map((item) => {
           return (
             <Link
-              to={`/pokemon/${item.id}`}
+              to={`/obiang-monorepo-app/pokemon/${item.id}`}
               key={item.id}
               className="card-pokemon-content"
             >
