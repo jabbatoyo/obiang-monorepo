@@ -2,7 +2,7 @@ import Detail from "../pages/Detail";
 import ErrorPage from "../pages/Error";
 import Home from "../pages/Home";
 
-export const BASE_URL = "/obiang-app";
+export const BASE_URL = "/obiang-monorepo-app";
 interface Route {
   url: string;
   component: React.FC<any>;
