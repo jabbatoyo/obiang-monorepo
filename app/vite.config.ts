@@ -8,7 +8,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   envPrefix: "REACT_APP_",
-  base: "/obiang-app/",
+  base: "/obiang-monorepo-app/",
   test: {
     globals: true,
     environment: "jsdom",
