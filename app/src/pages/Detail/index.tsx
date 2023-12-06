@@ -16,8 +16,6 @@ import "./index.scss";
 export default function Detail() {
   const { id } = useParams();
   const { pokemon, isLoading, showPokemon } = usePokemonData(0, false);
-
-  console.log("pokemon", { pokemon, id });
   useEffect(() => {
     showPokemon(parseInt(id as string));
   }, []);
